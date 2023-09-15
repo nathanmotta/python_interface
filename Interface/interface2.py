@@ -1,22 +1,18 @@
 import tkinter as tk
 from tkinter import messagebox
 
-
 def sair():
     print("Saindo")
     exit(0)
-
 
 def exibe():
     nome = entrada.get()
     print(nome)
     messagebox.showinfo("Seu nome:", nome)
 
-
 def teste():
     print("Segunda função")
     messagebox.showinfo("Função 2", "Duas funções chamadas em sequência")
-
 
 tela = tk.Tk()
 tela.title("Menu")
